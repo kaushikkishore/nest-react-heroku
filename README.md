@@ -6,7 +6,9 @@ This is just an front end part of the main aplication which is returning the `po
 
 ### Assumptions
 
-The UI is handling the case when there is no body or no title.
+- The UI is handling the case when there is no body or no title.
+- In UI there is a validation for the positive integer. If user is not passing an positive integer then the UI will pull up all the posts.
+- If an invalid number is passed then it will show the Not found case.
 
 ## Available Scripts
 
